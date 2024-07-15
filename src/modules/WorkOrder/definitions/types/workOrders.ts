@@ -13,6 +13,7 @@ export interface WorkOrder {
   stars: number;
   isNew: boolean;
   isFollowed: boolean;
+  imgUrl: string;
 }
 
 export interface WorkOrders {

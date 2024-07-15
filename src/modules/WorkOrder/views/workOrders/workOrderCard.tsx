@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useMemo} from 'react';
 import XDrag from './drag';
 import {Box, LinearProgress, Tooltip, Typography, Chip, Avatar, Button} from '@material-ui/core';
 import {
@@ -21,17 +21,6 @@ interface Props {
 export default function WorkOrderCard({task, index, onCardClick}: Props) {
   const classes = useStyles();
 
-  const getRandomLink = (links: string[]): string => {
-    return links[Math.floor(Math.random() * links.length)];
-  };
-
-  // Example usage:
-  const links = [
-    'https://mui.com/static/images/avatar/1.jpg',
-    'https://mui.com/static/images/avatar/2.jpg',
-    'https://mui.com/static/images/avatar/3.jpg',
-  ];
-
   return (
     <XDrag draggableId={task.id} index={index} key={task.id}>
       <div
@@ -44,7 +33,7 @@ export default function WorkOrderCard({task, index, onCardClick}: Props) {
           <Box display={'flex'} alignItems={'center'}>
             <Avatar
               alt="Remy Sharp"
-              src={getRandomLink(links)}
+              src={task.imgUrl}
               style={{marginRight: '8px', borderRadius: '30%'}}
             />
             <Box>

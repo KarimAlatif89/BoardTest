@@ -9,6 +9,7 @@ export const dataArr = [
     stars: 2,
     isNew: true,
     isFollowed: false,
+    imgUrl: 'https://mui.com/static/images/avatar/1.jpg',
   },
   // {
   //   id: 'id2',
@@ -31,6 +32,7 @@ export const dataArr = [
     stars: 3,
     isNew: true,
     isFollowed: true,
+    imgUrl: 'https://mui.com/static/images/avatar/1.jpg',
   },
   {
     id: 'id4',
@@ -42,6 +44,7 @@ export const dataArr = [
     stars: 4,
     isNew: false,
     isFollowed: true,
+    imgUrl: 'https://mui.com/static/images/avatar/2.jpg',
   },
   // {
   //   id: 'id5',
@@ -64,6 +67,7 @@ export const dataArr = [
     stars: 5,
     isNew: false,
     isFollowed: true,
+    imgUrl: 'https://mui.com/static/images/avatar/1.jpg',
   },
   // {
   //   id: 'id7',
@@ -86,6 +90,7 @@ export const dataArr = [
     stars: 1,
     isNew: false,
     isFollowed: false,
+    imgUrl: 'https://mui.com/static/images/avatar/2.jpg',
   },
   {
     id: 'id9',
@@ -97,6 +102,7 @@ export const dataArr = [
     stars: 4,
     isNew: true,
     isFollowed: true,
+    imgUrl: 'https://mui.com/static/images/avatar/3.jpg',
   },
   // {
   //   id: 'id10',
@@ -119,6 +125,7 @@ export const dataArr = [
     stars: 3,
     isNew: true,
     isFollowed: false,
+    imgUrl: 'https://mui.com/static/images/avatar/3.jpg',
   },
   {
     id: 'id12',
@@ -130,5 +137,6 @@ export const dataArr = [
     stars: 4,
     isNew: false,
     isFollowed: true,
+    imgUrl: 'https://mui.com/static/images/avatar/2.jpg',
   },
 ];
